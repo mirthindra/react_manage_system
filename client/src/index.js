@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Customer from './components/Customer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <App /> */}
     <App />
+    {/* <Customer /> */}
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
